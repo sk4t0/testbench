@@ -2,6 +2,21 @@
 
 This changelog references the relevant changes (bug and security fixes) done to `orchestra/testbench`.
 
+## 6.43.3
+
+Released: 2024-03-25
+
+### Changes
+
+* Update minimum support for Testbench Core v6.49.6+. ([v6.49.5...v6.49.6](https://github.com/orchestral/testbench-core/compare/v6.49.5...v6.49.6))
+
+#### Testbench Changes
+
+##### Changes
+
+* Flush Static Improvements.
+* Allows `Orchestra\Testbench\remote` to accept `$env` with either `array` or `string`.
+
 ## 6.43.2
 
 Released: 2024-03-25
