@@ -4,7 +4,7 @@ This changelog references the relevant changes (bug and security fixes) done to 
 
 ## 6.43.3
 
-Released: 2024-03-25
+Released: 2024-04-16
 
 ### Changes
 
