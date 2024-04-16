@@ -2,6 +2,28 @@
 
 This changelog references the relevant changes (bug and security fixes) done to `orchestra/testbench`.
 
+## 9.0.4
+
+Released: 2024-04-16
+
+### Changes
+
+* Update minimum support for Testbench Core v9.0.13+. ([v9.0.9...v9.0.13](https://github.com/orchestral/testbench-core/compare/v9.0.9...v9.0.13))
+
+#### Testbench Changes
+
+##### Changes
+
+* Allows `Orchestra\Testbench\remote` to accept `$env` with either `array` or `string`.
+* Includes `TESTBENCH_PACKAGE_REMOTE=true` when running command using `Orchestra\Testbench\remote`.
+* Flush Static Improvements.
+* Revert setting `workbench` environment variable when Testbench CLI is used outside of testing. 
+
+##### Fixes
+
+* Fixes `serve` command.
+* Fixes `runningInUnitTests()` returning `true` when not running tests via Testbench CLI.
+
 ## 9.0.3
 
 Released: 2024-03-27
